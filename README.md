@@ -1,4 +1,9 @@
-# Credit Card Fraud Detection with Machine Learning
+ <h1 align="center">
+  Credit Card Fraud Detection 
+</h1>
+<div align="center">
+  <h4>Aurthor: <a href="https://www.linkedin.com/in/kamakshisharma22">Kamakshi Sharma</a></h4>
+</div>
 
 This repository contains an analysis of credit card fraud detection using various machine learning techniques. The project explores the trade-off between accuracy and fraud detection capabilities to identify the most suitable model for real-world scenarios.
 
@@ -52,10 +57,10 @@ The analysis suggests that Random Forest and the ensemble method (Random Forest 
 
 ## Getting Started
 
-- Jupyter Notebook (https://github.com/kamakshii22/Fraud_Detection/blob/main/Project_Fraud_Detection.ipynb) to reproduce the analysis and visualizations.
+- [Jupyter Notebook](https://github.com/kamakshii22/Fraud_Detection/blob/main/Project_Fraud_Detection.ipynb) to reproduce the analysis and visualizations.
 
 ## Presentation
 
-The `presentation.ppt` (https://github.com/kamakshii22/Fraud_Detection/blob/main/PPT_Fraud_Detection_Kamakshi.pptx) file provides a comprehensive overview of the project, including detailed explanations, figures, and tables. Refer to this file for a deeper understanding of the concepts and findings.
+The [presentation-ppt](https://github.com/kamakshii22/Fraud_Detection/blob/main/PPT_Fraud_Detection_Kamakshi.pptx) file provides a comprehensive overview of the project, including detailed explanations, figures, and tables. Refer to this file for a deeper understanding of the concepts and findings.
 
 
