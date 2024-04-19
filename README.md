@@ -29,9 +29,12 @@ This repository contains an analysis of credit card fraud detection using variou
 
 3. **Model Building**
     - Implemented four machine learning models:
+     - Machine Learning Technique : 
         - Logistic Regression: Provides interpretable coefficients for understanding feature impact on fraud.
         - Random Forest: Captures complex data relationships for detecting subtle fraud patterns.
+     - Anomaly Detection Technique : 
         - Isolation Forest: Efficiently isolates anomalies (fraudulent transactions) in high-dimensional data.
+     - Deep Learning Technique : 
         - Neural Network (MLP Classifier): Captures non-linear data patterns for sophisticated fraud detection.
     - Trained and evaluated each model using a stratified split to ensure class representation in the training and testing sets.
 
@@ -53,9 +56,9 @@ This repository contains an analysis of credit card fraud detection using variou
 
 ## Overall Results
 
-The analysis suggests that Random Forest and the ensemble method (Random Forest + Isolation Forest) are promising choices for credit card fraud detection due to their balanced performance and ability to identify both normal and fraudulent transactions. However, real-time implementation considerations like model interpretability, computational efficiency, and concept drift need to be addressed for practical deployment.
+The analysis suggests that Improved Random Forest i.e, **Ensemble method (Random Forest + Isolation Forest)** is more promising choice for credit card fraud detection due to their balanced performance and ability to identify both normal and fraudulent transactions. However, real-time implementation considerations like model interpretability, computational efficiency, and concept drift need to be addressed for practical deployment.
 
-## Getting Started
+## Jupyter file
 
 - [Jupyter Notebook](https://github.com/kamakshii22/Fraud_Detection/blob/main/Project_Fraud_Detection.ipynb) to reproduce the analysis and visualizations.
 
