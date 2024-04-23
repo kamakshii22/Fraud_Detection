@@ -38,7 +38,17 @@ This repository contains an analysis of credit card fraud detection using variou
         - Neural Network (MLP Classifier): Captures non-linear data patterns for sophisticated fraud detection.
     - Trained and evaluated each model using a stratified split to ensure class representation in the training and testing sets.
 
-4. **Model Performance & Key Findings**
+4. **Model Comparison:**
+
+| Model             | Accuracy | Precision for Fraud | Recall for Fraud |
+|-------------------|----------|---------------------|------------------|
+| Logistic Regression | 89%     | 0.04                | 0.76             |
+| Random Forest       | 100%    | 1.00                | 1.00             |
+| Isolation Forest    | 97%     | 0.01                | 0.03             |
+| Neural Network      | 98%     | 0.20                | 0.89             |
+
+
+5. **Model Performance & Key Findings**
     - Evaluated models using classification reports(Accuracy, Precision, Recall, F1-Score), ROC-AUC scores, ROC curves, and precision-recall curves. Detailed results are provided in the Jupyter Notebook.
     - **Key findings:**
         - Random Forest achieved the highest overall accuracy (100%) but raises concerns about overfitting. However, it performed well in identifying both types of transactions.
@@ -47,7 +57,7 @@ This repository contains an analysis of credit card fraud detection using variou
         - Neural Network offered a balance between accuracy and fraud detection.
     - **Random Forest** become the best out of four. 
 
-5. **Ensemble Method**
+6. **Ensemble Method**
     - To potentially improve fraud detection and reduce overfitting risk, we combined Random Forest and Isolation Forest.
     - This ensemble method achieved promising results:
         - Accuracy: 97% (reduced overfitting risk compared to Random Forest alone).
@@ -58,9 +68,9 @@ This repository contains an analysis of credit card fraud detection using variou
 
 The analysis suggests that Improved Random Forest i.e, **Ensemble method (Random Forest + Isolation Forest)** is more promising choice for credit card fraud detection due to their balanced performance and ability to identify both normal and fraudulent transactions. However, real-time implementation considerations like model interpretability, computational efficiency, and concept drift need to be addressed for practical deployment.
 
-## Jupyter file
 
-- [Jupyter Notebook](https://github.com/kamakshii22/Fraud_Detection/blob/main/Project_Fraud_Detection.ipynb) to reproduce the analysis and visualizations.
+## GitHub File:
+- Jupyter Notebook [click here](https://github.com/kamakshii22/Fraud_Detection/blob/main/Project_Fraud_Detection.ipynb)
 
 ## Presentation
 
